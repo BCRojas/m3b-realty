@@ -1,0 +1,207 @@
+# Terminal Full Output
+# Terminal: setup
+# Command: sudo apt-get update && sudo apt-get install -y postgresql postgresql-contrib
+# PID: 2484
+# Timestamp: 2026-03-26_01-45-32.753705
+# Original Length: 14554 characters
+# ----------------------------------------
+
+Get:1 https://cli.github.com/packages stable InRelease [3917 B]
+Get:2 https://cli.github.com/packages stable/main amd64 Packages [357 B]       
+Get:3 http://ppa.launchpad.net/savoury1/chromium/ubuntu jammy InRelease [18.1 kB]
+Get:4 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]      
+Get:5 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]                
+Get:6 http://ppa.launchpad.net/savoury1/chromium/ubuntu jammy/main amd64 Packages [1542 B]
+Get:7 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [3842 kB]
+Get:8 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+Get:9 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
+Get:10 http://archive.ubuntu.com/ubuntu jammy/restricted amd64 Packages [164 kB]
+Get:11 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1792 kB]
+Get:12 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [6803 kB]
+Get:13 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [17.5 MB]
+Get:14 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [62.6 kB]
+Get:15 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1305 kB]
+Get:16 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [266 kB]
+Get:17 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [70.9 kB]
+Get:18 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [4173 kB]
+Get:19 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1618 kB]
+Get:20 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [7011 kB]
+Get:21 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [84.0 kB]
+Get:22 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [35.6 kB]
+Fetched 45.4 MB in 5s (8833 kB/s)                            
+Reading package lists... Done
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  libcommon-sense-perl libjson-perl libjson-xs-perl libllvm14 libpopt0 libpq5
+  libtypes-serialiser-perl locales logrotate postgresql-14
+  postgresql-client-14 postgresql-client-common postgresql-common ssl-cert
+  sysstat xz-utils
+Suggested packages:
+  bsd-mailx | mailx postgresql-doc postgresql-doc-14 isag
+The following NEW packages will be installed:
+  libcommon-sense-perl libjson-perl libjson-xs-perl libllvm14 libpopt0 libpq5
+  libtypes-serialiser-perl locales logrotate postgresql postgresql-14
+  postgresql-client-14 postgresql-client-common postgresql-common
+  postgresql-contrib ssl-cert sysstat xz-utils
+0 upgraded, 18 newly installed, 0 to remove and 102 not upgraded.
+Need to get 47.0 MB of archives.
+After this operation, 180 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu jammy/main amd64 libpopt0 amd64 1.18-3build1 [28.2 kB]
+Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 locales all 2.35-0ubuntu3.13 [4248 kB]
+Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 logrotate amd64 3.19.0-1ubuntu1.1 [54.3 kB]
+Get:4 http://archive.ubuntu.com/ubuntu jammy/main amd64 xz-utils amd64 5.2.5-2ubuntu1 [84.8 kB]
+Get:5 http://archive.ubuntu.com/ubuntu jammy/main amd64 libcommon-sense-perl amd64 3.75-2build1 [21.1 kB]
+Get:6 http://archive.ubuntu.com/ubuntu jammy/main amd64 libjson-perl all 4.04000-1 [81.8 kB]
+Get:7 http://archive.ubuntu.com/ubuntu jammy/main amd64 libtypes-serialiser-perl all 1.01-1 [11.6 kB]
+Get:8 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libjson-xs-perl amd64 4.040-0ubuntu0.22.04.1 [87.0 kB]
+Get:9 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libllvm14 amd64 1:14.0.0-1ubuntu1.1 [24.0 MB]
+Get:10 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpq5 amd64 14.22-0ubuntu0.22.04.1 [153 kB]
+Get:11 http://archive.ubuntu.com/ubuntu jammy/main amd64 postgresql-client-common all 238 [29.6 kB]
+Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 postgresql-client-14 amd64 14.22-0ubuntu0.22.04.1 [1251 kB]
+Get:13 http://archive.ubuntu.com/ubuntu jammy/main amd64 ssl-cert all 1.1.2 [17.4 kB]
+Get:14 http://archive.ubuntu.com/ubuntu jammy/main amd64 postgresql-common all 238 [169 kB]
+Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 postgresql-14 amd64 14.22-0ubuntu0.22.04.1 [16.3 MB]
+Get:16 http://archive.ubuntu.com/ubuntu jammy/main amd64 postgresql all 14+238 [3288 B]
+Get:17 http://archive.ubuntu.com/ubuntu jammy/main amd64 postgresql-contrib all 14+238 [3292 B]
+Get:18 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 sysstat amd64 12.5.2-2ubuntu0.2 [487 kB]
+Fetched 47.0 MB in 4s (12.0 MB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package libpopt0:amd64.
+(Reading database ... 58623 files and directories currently installed.)
+Preparing to unpack .../00-libpopt0_1.18-3build1_amd64.deb ...
+Unpacking libpopt0:amd64 (1.18-3build1) ...
+Selecting previously unselected package locales.
+Preparing to unpack .../01-locales_2.35-0ubuntu3.13_all.deb ...
+Unpacking locales (2.35-0ubuntu3.13) ...
+Selecting previously unselected package logrotate.
+Preparing to unpack .../02-logrotate_3.19.0-1ubuntu1.1_amd64.deb ...
+Unpacking logrotate (3.19.0-1ubuntu1.1) ...
+Selecting previously unselected package xz-utils.
+Preparing to unpack .../03-xz-utils_5.2.5-2ubuntu1_amd64.deb ...
+Unpacking xz-utils (5.2.5-2ubuntu1) ...
+Selecting previously unselected package libcommon-sense-perl:amd64.
+Preparing to unpack .../04-libcommon-sense-perl_3.75-2build1_amd64.deb ...
+Unpacking libcommon-sense-perl:amd64 (3.75-2build1) ...
+Selecting previously unselected package libjson-perl.
+Preparing to unpack .../05-libjson-perl_4.04000-1_all.deb ...
+Unpacking libjson-perl (4.04000-1) ...
+Selecting previously unselected package libtypes-serialiser-perl.
+Preparing to unpack .../06-libtypes-serialiser-perl_1.01-1_all.deb ...
+Unpacking libtypes-serialiser-perl (1.01-1) ...
+Selecting previously unselected package libjson-xs-perl.
+Preparing to unpack .../07-libjson-xs-perl_4.040-0ubuntu0.22.04.1_amd64.deb ...
+Unpacking libjson-xs-perl (4.040-0ubuntu0.22.04.1) ...
+Selecting previously unselected package libllvm14:amd64.
+Preparing to unpack .../08-libllvm14_1%3a14.0.0-1ubuntu1.1_amd64.deb ...
+Unpacking libllvm14:amd64 (1:14.0.0-1ubuntu1.1) ...
+Selecting previously unselected package libpq5:amd64.
+Preparing to unpack .../09-libpq5_14.22-0ubuntu0.22.04.1_amd64.deb ...
+Unpacking libpq5:amd64 (14.22-0ubuntu0.22.04.1) ...
+Selecting previously unselected package postgresql-client-common.
+Preparing to unpack .../10-postgresql-client-common_238_all.deb ...
+Unpacking postgresql-client-common (238) ...
+Selecting previously unselected package postgresql-client-14.
+Preparing to unpack .../11-postgresql-client-14_14.22-0ubuntu0.22.04.1_amd64.deb ...
+Unpacking postgresql-client-14 (14.22-0ubuntu0.22.04.1) ...
+Selecting previously unselected package ssl-cert.
+Preparing to unpack .../12-ssl-cert_1.1.2_all.deb ...
+Unpacking ssl-cert (1.1.2) ...
+Selecting previously unselected package postgresql-common.
+Preparing to unpack .../13-postgresql-common_238_all.deb ...
+Adding 'diversion of /usr/bin/pg_config to /usr/bin/pg_config.libpq-dev by postgresql-common'
+Unpacking postgresql-common (238) ...
+Selecting previously unselected package postgresql-14.
+Preparing to unpack .../14-postgresql-14_14.22-0ubuntu0.22.04.1_amd64.deb ...
+Unpacking postgresql-14 (14.22-0ubuntu0.22.04.1) ...
+Selecting previously unselected package postgresql.
+Preparing to unpack .../15-postgresql_14+238_all.deb ...
+Unpacking postgresql (14+238) ...
+Selecting previously unselected package postgresql-contrib.
+Preparing to unpack .../16-postgresql-contrib_14+238_all.deb ...
+Unpacking postgresql-contrib (14+238) ...
+Selecting previously unselected package sysstat.
+Preparing to unpack .../17-sysstat_12.5.2-2ubuntu0.2_amd64.deb ...
+Unpacking sysstat (12.5.2-2ubuntu0.2) ...
+Setting up postgresql-client-common (238) ...
+Setting up libpq5:amd64 (14.22-0ubuntu0.22.04.1) ...
+Setting up libcommon-sense-perl:amd64 (3.75-2build1) ...
+Setting up postgresql-client-14 (14.22-0ubuntu0.22.04.1) ...
+update-alternatives: using /usr/share/postgresql/14/man/man1/psql.1.gz to provide /usr/share/man/man1/psql.1.gz (psql.1.gz) in auto mode
+Setting up locales (2.35-0ubuntu3.13) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+Generating locales (this might take a while)...
+Generation complete.
+Setting up ssl-cert (1.1.2) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+Setting up xz-utils (5.2.5-2ubuntu1) ...
+update-alternatives: using /usr/bin/xz to provide /usr/bin/lzma (lzma) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzma.1.gz because associated file /usr/share/man/man1/xz.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/unlzma.1.gz because associated file /usr/share/man/man1/unxz.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzcat.1.gz because associated file /usr/share/man/man1/xzcat.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzmore.1.gz because associated file /usr/share/man/man1/xzmore.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzless.1.gz because associated file /usr/share/man/man1/xzless.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzdiff.1.gz because associated file /usr/share/man/man1/xzdiff.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzcmp.1.gz because associated file /usr/share/man/man1/xzcmp.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzgrep.1.gz because associated file /usr/share/man/man1/xzgrep.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzegrep.1.gz because associated file /usr/share/man/man1/xzegrep.1.gz (of link group lzma) doesn't exist
+update-alternatives: warning: skip creation of /usr/share/man/man1/lzfgrep.1.gz because associated file /usr/share/man/man1/xzfgrep.1.gz (of link group lzma) doesn't exist
+Setting up libllvm14:amd64 (1:14.0.0-1ubuntu1.1) ...
+Setting up libtypes-serialiser-perl (1.01-1) ...
+Setting up libjson-perl (4.04000-1) ...
+Setting up sysstat (12.5.2-2ubuntu0.2) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+Creating config file /etc/default/sysstat with new version
+update-alternatives: using /usr/bin/sar.sysstat to provide /usr/bin/sar (sar) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/sar.1.gz because associated file /usr/share/man/man1/sar.sysstat.1.gz (of link group sar) doesn't exist
+Created symlink /etc/systemd/system/sysstat.service.wants/sysstat-collect.timer → /lib/systemd/system/sysstat-collect.timer.
+Created symlink /etc/systemd/system/sysstat.service.wants/sysstat-summary.timer → /lib/systemd/system/sysstat-summary.timer.
+Created symlink /etc/systemd/system/multi-user.target.wants/sysstat.service → /lib/systemd/system/sysstat.service.
+Setting up libpopt0:amd64 (1.18-3build1) ...
+Setting up logrotate (3.19.0-1ubuntu1.1) ...
+Created symlink /etc/systemd/system/timers.target.wants/logrotate.timer → /lib/systemd/system/logrotate.timer.
+/usr/sbin/policy-rc.d returned 101, not running 'start logrotate.service logrotate.timer'
+Setting up libjson-xs-perl (4.040-0ubuntu0.22.04.1) ...
+Setting up postgresql-common (238) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+Adding user postgres to group ssl-cert
+Creating config file /etc/postgresql-common/createcluster.conf with new version
+Building PostgreSQL dictionaries from installed myspell/hunspell packages...
+Removing obsolete dictionary files:
+Created symlink /etc/systemd/system/multi-user.target.wants/postgresql.service → /lib/systemd/system/postgresql.service.
+Setting up postgresql-14 (14.22-0ubuntu0.22.04.1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+Creating new PostgreSQL cluster 14/main ...
+/usr/lib/postgresql/14/bin/initdb -D /var/lib/postgresql/14/main --auth-local peer --auth-host scram-sha-256 --no-instructions
+The files belonging to this database system will be owned by user "postgres".
+This user must also own the server process.
+The database cluster will be initialized with locale "C.UTF-8".
+The default database encoding has accordingly been set to "UTF8".
+The default text search configuration will be set to "english".
+Data page checksums are disabled.
+fixing permissions on existing directory /var/lib/postgresql/14/main ... ok
+creating subdirectories ... ok
+selecting dynamic shared memory implementation ... posix
+selecting default max_connections ... 100
+selecting default shared_buffers ... 128MB
+selecting default time zone ... America/New_York
+creating configuration files ... ok
+running bootstrap script ... ok
+performing post-bootstrap initialization ... ok
+syncing data to disk ... ok
+update-alternatives: using /usr/share/postgresql/14/man/man1/postmaster.1.gz to provide /usr/share/man/man1/postmaster.1.gz (postmaster.1.gz) in auto mode
+invoke-rc.d: policy-rc.d denied execution of start.
+Setting up postgresql-contrib (14+238) ...
+Setting up postgresql (14+238) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.11) ...

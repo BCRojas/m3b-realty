@@ -1,0 +1,53 @@
+{
+  "resolution": [1920, 1080],
+  "fps": 30,
+  "fade": 0.4,
+  "slides": [
+    {
+      "type": "full",
+      "image": "/path/to/opening_title_card.png",
+      "duration": 5.0,
+      "_note": "AI-generated title card — bold hook headline"
+    },
+    {
+      "type": "screenshot",
+      "image": "/path/to/screen_step1.webp",
+      "headline": "Step 1 — Choose Your Template",
+      "sub": "4 professionally designed templates for any business",
+      "duration": 6.0
+    },
+    {
+      "type": "screenshot",
+      "image": "/path/to/screen_step2.webp",
+      "headline": "Step 2 — Make It Yours",
+      "sub": "Pick colors, fonts, and upload your logo — no code needed",
+      "duration": 6.0
+    },
+    {
+      "type": "screenshot",
+      "image": "/path/to/screen_step3.webp",
+      "headline": "Step 3 — Fill In Your Info & Launch",
+      "sub": "Tab through each section, then hit Launch Website",
+      "duration": 6.0
+    },
+    {
+      "type": "full",
+      "image": "/path/to/features_showcase.png",
+      "duration": 5.0,
+      "_note": "AI-generated features grid card"
+    },
+    {
+      "type": "screenshot",
+      "image": "/path/to/screen_live_site.webp",
+      "headline": "Your Website Goes Live Instantly",
+      "sub": "Get a shareable link — no hosting setup required",
+      "duration": 7.0
+    },
+    {
+      "type": "full",
+      "image": "/path/to/cta_card.png",
+      "duration": 8.0,
+      "_note": "AI-generated CTA closing card with domain URL"
+    }
+  ]
+}

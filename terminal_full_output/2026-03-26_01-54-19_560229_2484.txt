@@ -1,0 +1,105 @@
+# Terminal Full Output
+# Terminal: setup
+# Command: cd /home/ubuntu && git add client/ server/ shared/ script/ attached_assets/ vite-plugin-meta-images.ts && git commit -m "Add source code and assets"
+# PID: 2484
+# Timestamp: 2026-03-26_01-54-19.560229
+# Original Length: 5251 characters
+# ----------------------------------------
+
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+[master 5be3bb7] Add source code and assets
+ 89 files changed, 7804 insertions(+)
+ create mode 100644 attached_assets/Brendon_in_suit_1772591990434.png
+ create mode 100644 attached_assets/M3B_Realty_3D_logo1_1772507923825.jpeg
+ create mode 100644 client/index.html
+ create mode 100644 client/public/favicon.png
+ create mode 100644 client/public/opengraph.jpg
+ create mode 100644 client/src/App.tsx
+ create mode 100644 client/src/assets/images/hero.jpg
+ create mode 100644 client/src/assets/images/house_1.jpg
+ create mode 100644 client/src/assets/images/house_2.jpg
+ create mode 100644 client/src/assets/images/house_3.jpg
+ create mode 100644 client/src/components/About.tsx
+ create mode 100644 client/src/components/Contact.tsx
+ create mode 100644 client/src/components/FeaturedProperties.tsx
+ create mode 100644 client/src/components/Footer.tsx
+ create mode 100644 client/src/components/Hero.tsx
+ create mode 100644 client/src/components/MarketingTeam.tsx
+ create mode 100644 client/src/components/Nav.tsx
+ create mode 100644 client/src/components/ui/accordion.tsx
+ create mode 100644 client/src/components/ui/alert-dialog.tsx
+ create mode 100644 client/src/components/ui/alert.tsx
+ create mode 100644 client/src/components/ui/aspect-ratio.tsx
+ create mode 100644 client/src/components/ui/avatar.tsx
+ create mode 100644 client/src/components/ui/badge.tsx
+ create mode 100644 client/src/components/ui/breadcrumb.tsx
+ create mode 100644 client/src/components/ui/button-group.tsx
+ create mode 100644 client/src/components/ui/button.tsx
+ create mode 100644 client/src/components/ui/calendar.tsx
+ create mode 100644 client/src/components/ui/card.tsx
+ create mode 100644 client/src/components/ui/carousel.tsx
+ create mode 100644 client/src/components/ui/chart.tsx
+ create mode 100644 client/src/components/ui/checkbox.tsx
+ create mode 100644 client/src/components/ui/collapsible.tsx
+ create mode 100644 client/src/components/ui/command.tsx
+ create mode 100644 client/src/components/ui/context-menu.tsx
+ create mode 100644 client/src/components/ui/dialog.tsx
+ create mode 100644 client/src/components/ui/drawer.tsx
+ create mode 100644 client/src/components/ui/dropdown-menu.tsx
+ create mode 100644 client/src/components/ui/empty.tsx
+ create mode 100644 client/src/components/ui/field.tsx
+ create mode 100644 client/src/components/ui/form.tsx
+ create mode 100644 client/src/components/ui/hover-card.tsx
+ create mode 100644 client/src/components/ui/input-group.tsx
+ create mode 100644 client/src/components/ui/input-otp.tsx
+ create mode 100644 client/src/components/ui/input.tsx
+ create mode 100644 client/src/components/ui/item.tsx
+ create mode 100644 client/src/components/ui/kbd.tsx
+ create mode 100644 client/src/components/ui/label.tsx
+ create mode 100644 client/src/components/ui/menubar.tsx
+ create mode 100644 client/src/components/ui/navigation-menu.tsx
+ create mode 100644 client/src/components/ui/pagination.tsx
+ create mode 100644 client/src/components/ui/popover.tsx
+ create mode 100644 client/src/components/ui/progress.tsx
+ create mode 100644 client/src/components/ui/radio-group.tsx
+ create mode 100644 client/src/components/ui/resizable.tsx
+ create mode 100644 client/src/components/ui/scroll-area.tsx
+ create mode 100644 client/src/components/ui/select.tsx
+ create mode 100644 client/src/components/ui/separator.tsx
+ create mode 100644 client/src/components/ui/sheet.tsx
+ create mode 100644 client/src/components/ui/sidebar.tsx
+ create mode 100644 client/src/components/ui/skeleton.tsx
+ create mode 100644 client/src/components/ui/slider.tsx
+ create mode 100644 client/src/components/ui/sonner.tsx
+ create mode 100644 client/src/components/ui/spinner.tsx
+ create mode 100644 client/src/components/ui/switch.tsx
+ create mode 100644 client/src/components/ui/table.tsx
+ create mode 100644 client/src/components/ui/tabs.tsx
+ create mode 100644 client/src/components/ui/textarea.tsx
+ create mode 100644 client/src/components/ui/toast.tsx
+ create mode 100644 client/src/components/ui/toaster.tsx
+ create mode 100644 client/src/components/ui/toggle-group.tsx
+ create mode 100644 client/src/components/ui/toggle.tsx
+ create mode 100644 client/src/components/ui/tooltip.tsx
+ create mode 100644 client/src/hooks/use-mobile.tsx
+ create mode 100644 client/src/hooks/use-toast.ts
+ create mode 100644 client/src/index.css
+ create mode 100644 client/src/lib/queryClient.ts
+ create mode 100644 client/src/lib/utils.ts
+ create mode 100644 client/src/main.tsx
+ create mode 100644 client/src/pages/Home.tsx
+ create mode 100644 client/src/pages/not-found.tsx
+ create mode 100644 script/build.ts
+ create mode 100644 server/db.ts
+ create mode 100644 server/index.ts
+ create mode 100644 server/routes.ts
+ create mode 100644 server/static.ts
+ create mode 100644 server/storage.ts
+ create mode 100644 server/vite.ts
+ create mode 100644 shared/schema.ts
+ create mode 100644 vite-plugin-meta-images.ts

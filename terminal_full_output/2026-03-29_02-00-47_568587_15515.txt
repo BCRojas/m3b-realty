@@ -1,0 +1,174 @@
+# Terminal Full Output
+# Terminal: build
+# Command: cd /home/ubuntu && git add -A && git commit -m "Rebuild application" && git push origin main 2>&1 | tail -20
+# PID: 15515
+# Timestamp: 2026-03-29_02-00-47.568587
+# Original Length: 11679 characters
+# ----------------------------------------
+
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 43a0c8c] Rebuild application
+ 142 files changed, 12832 insertions(+)
+ create mode 100644 .bash_history
+ create mode 100644 .bash_logout
+ create mode 100644 .bashrc
+ create mode 100644 .gitconfig
+ create mode 100644 .history/compacted-history-RwE6ZkIGG8oFMTGnmWQxdH-1.jsonl
+ create mode 100644 .profile
+ create mode 100644 .user_env
+ create mode 100644 .zshrc
+ create mode 100644 console_outputs/exec_result_2026-03-26_01-29-24_498.txt
+ create mode 100644 page_texts/5000-i082xldld4withdj1gbml-8fbd7a47.sg1.manus.computer.md
+ create mode 100644 page_texts/neon.tech.md
+ create mode 100644 replit.md
+ create mode 100644 sandbox.txt
+ create mode 100644 screenshots/5000-i082xldld4withd_2026-03-26_01-28-14_6202.webp
+ create mode 100644 screenshots/5000-i082xldld4withd_2026-03-26_01-28-23_8359.webp
+ create mode 100644 screenshots/5000-i082xldld4withd_2026-03-26_01-28-31_1440.webp
+ create mode 100644 screenshots/5000-i082xldld4withd_2026-03-26_01-28-37_1500.webp
+ create mode 100644 screenshots/5000-i082xldld4withd_2026-03-26_01-28-55_3373.webp
+ create mode 100644 screenshots/5000-i082xldld4withd_2026-03-26_01-29-03_8273.webp
+ create mode 100644 screenshots/5000-i082xldld4withd_2026-03-26_01-29-18_3114.webp
+ create mode 100644 screenshots/5000-i082xldld4withd_2026-03-26_01-29-24_8126.webp
+ create mode 100644 screenshots/5000-i082xldld4withd_2026-03-26_01-29-30_5174.webp
+ create mode 100644 screenshots/console_neon_tech_2026-03-26_01-33-25_2440.webp
+ create mode 100644 screenshots/console_neon_tech_2026-03-26_01-33-30_2303.webp
+ create mode 100644 screenshots/neon_2026-03-26_01-33-09_9510.webp
+ create mode 100644 skills/.skill_versions.json
+ create mode 100644 skills/meta-ads-analyzer/SKILL.md
+ create mode 100644 skills/meta-ads-analyzer/references/ad_auctions.md
+ create mode 100644 skills/meta-ads-analyzer/references/ad_relevance_diagnostics.md
+ create mode 100644 skills/meta-ads-analyzer/references/auction_overlap.md
+ create mode 100644 skills/meta-ads-analyzer/references/bid_strategies.md
+ create mode 100644 skills/meta-ads-analyzer/references/breakdown_effect.md
+ create mode 100644 skills/meta-ads-analyzer/references/core_concepts.md
+ create mode 100644 skills/meta-ads-analyzer/references/learning_phase.md
+ create mode 100644 skills/meta-ads-analyzer/references/pacing.md
+ create mode 100644 skills/meta-ads-analyzer/references/performance_fluctuations.md
+ create mode 100644 skills/skill-creator/LICENSE.txt
+ create mode 100644 skills/skill-creator/SKILL.md
+ create mode 100644 skills/skill-creator/references/output-patterns.md
+ create mode 100644 skills/skill-creator/references/progressive-disclosure-patterns.md
+ create mode 100644 skills/skill-creator/references/workflows.md
+ create mode 100644 skills/skill-creator/scripts/init_skill.py
+ create mode 100644 skills/skill-creator/scripts/quick_validate.py
+ create mode 100644 skills/template-website-builder/SKILL.md
+ create mode 100644 skills/template-website-builder/references/component-patterns.md
+ create mode 100644 skills/template-website-builder/references/html-generation-guide.md
+ create mode 100644 skills/template-website-builder/references/template-examples.md
+ create mode 100644 skills/webapp-promo-video/SKILL.md
+ create mode 100644 skills/webapp-promo-video/references/slide_config_example.json
+ create mode 100644 skills/webapp-promo-video/references/voiceover_guide.md
+ create mode 100644 skills/webapp-promo-video/scripts/make_bgmusic.py
+ create mode 100644 skills/webapp-promo-video/scripts/make_video.py
+ create mode 100644 skills/webapp-promo-video/scripts/mix_audio.sh
+ create mode 100644 skills/webdev-prelaunch-qa/SKILL.md
+ create mode 100644 skills/webdev-prelaunch-qa/references/qa_checklist.md
+ create mode 100644 skills/webdev-prelaunch-qa/scripts/audit_responsive_css.py
+ create mode 100644 skills/webdev-prelaunch-qa/scripts/generate_audit_htmls.ts
+ create mode 100644 skills/website-builder-customization/SKILL.md
+ create mode 100644 skills/website-builder-customization/references/patterns.md
+ create mode 100644 skills/website-builder-photo-upload/SKILL.md
+ create mode 100644 skills/website-builder-saas/SKILL.md
+ create mode 100644 skills/website-builder-template/SKILL.md
+ create mode 100644 skills/website-builder-template/references/html-generator-patterns.md
+ create mode 100644 skills/website-builder-template/references/photo-slot-checklist.md
+ create mode 100755 start-server.sh
+ create mode 100644 terminal_full_output/2026-03-26_01-11-01_575717_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-01_785567_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-01_995210_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-02_630800_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-02_843163_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-03_265131_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-03_53567_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-03_899413_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-04_110335_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-04_535596_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-04_751237_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-05_176766_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-05_391186_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-05_602068_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-05_813046_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-06_23568_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-06_866627_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-07_291908_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-07_503739_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-07_720429_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-07_81139_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-08_142313_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-08_353825_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-08_567564_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-08_780772_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-09_413737_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-09_624470_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-09_835969_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-11-10_893555_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-14-56_638610_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-14-56_844799_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-14-57_260505_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-14-57_469687_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-14-57_52049_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-14-57_680061_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-14-57_891292_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-14-58_103669_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-14-58_317143_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-14-58_531559_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-14-58_746793_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-14-58_964223_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-14-59_181426_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-14-59_399365_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-14-59_630847_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-14-59_859401_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-00_305078_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-00_533319_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-00_758207_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-00_81491_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-00_986422_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-01_213576_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-01_441967_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-01_700466_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-01_929921_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-02_161307_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-02_393397_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-02_628009_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-02_876578_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-03_148923_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-03_386417_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-03_623829_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-03_862343_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-04_102855_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-04_344430_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-04_585431_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-04_828424_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-05_317468_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-05_563428_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-05_72219_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-05_813214_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-06_312280_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-06_564840_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-15-06_62152_5838.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-45-32_753705_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-46-33_677318_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-46-37_340799_2484.txt
+ create mode 100644 terminal_full_output/2026-03-26_01-54-19_560229_2484.txt
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push        
+remote:             
+remote:             
+remote:       —— GitHub Personal Access Token ——————————————————————        
+remote:        locations:        
+remote:          - commit: 43a0c8ca96c676639812c122570f6303f0fa86ab        
+remote:            path: .bash_history:125        
+remote:          - commit: 43a0c8ca96c676639812c122570f6303f0fa86ab        
+remote:            path: .bash_history:126        
+remote:          - commit: 43a0c8ca96c676639812c122570f6303f0fa86ab        
+remote:            path: .bash_history:127        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/BCRojas/m3b-realty/security/secret-scanning/unblock-secret/3BbiD655ZfovubNuT86XeDJuWIl        
+remote:             
+remote: 
+remote: 
+To https://github.com/BCRojas/m3b-realty.git
+ ! [remote rejected] main -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'https://github.com/BCRojas/m3b-realty.git'
